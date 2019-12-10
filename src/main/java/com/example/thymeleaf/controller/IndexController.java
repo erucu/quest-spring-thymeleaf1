@@ -8,6 +8,6 @@ public class IndexController {
 
     @GetMapping("/")
     public String home() {
-        return "index";
+        return "index"; // Ladet die index.html Datei
     }
 }
